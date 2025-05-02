@@ -6,6 +6,7 @@
 ## 🚀 Model Workflow
 
 ### 1. **Preprocessing**
+- download dataset from https://www.kaggle.com/datasets/mikulhe/3d-printing-errors
 - Images are resized to 128x128
 - Normalized with `rescale=1./255`
 - Dataset is split: 80% training, 20% validation using `ImageDataGenerator`
